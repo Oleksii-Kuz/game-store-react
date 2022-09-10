@@ -1,0 +1,50 @@
+.game-item {
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(36, 37, 41);
+  position: relative;
+}
+
+.game-item__cover {
+  height: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+
+.game-item__wrapper {
+  padding: 15px;
+}
+
+.game-item__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.game-item__genres {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.game-item__genres span {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: purple;
+  margin: 0 5px 5px 0;
+}
+
+.game-item__description {
+  font-size: 14px;
+}
+
+.game-item__buy {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

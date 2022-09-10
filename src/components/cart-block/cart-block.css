@@ -1,0 +1,10 @@
+.cart-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-price {
+  margin-left: 10px;
+  font-size: 20px;
+}

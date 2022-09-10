@@ -1,0 +1,23 @@
+.header {
+  height: 80px;
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.header-title {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-cart {
+  justify-content: flex-end;
+}
