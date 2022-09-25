@@ -24,7 +24,7 @@ export const CartMenu = ({items, onClick}) => {
             size='m'
             onClick={onClick}
           >
-            Complete
+            Buy games
           </Button>
         </div> :
         null
